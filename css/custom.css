@@ -170,13 +170,61 @@
 }
 @media screen and (max-width: 600px){
     .logo5{
-        top: 200px !important;
-        right: 10px !important;
+        top: 190px !important;
+        right: 25px !important;
+    }
+    .logo5 h3{
+        font-size: 29px;
+    }
+    .logo5 .brand-logo{
+        font-size: 15px;
+    }
+    .logo5 h2{
+        font-size: 39px;
     }
 }
 @media screen and (max-width: 600px){
     .logo5{
-        top: 150px !important;
+        top: 190px !important;
+        right: 25px !important;
+    }
+    .logo5 h3{
+        font-size: 29px;
+    }
+    .logo5 .brand-logo{
+        font-size: 15px;
+    }
+    .logo5 h2{
+        font-size: 39px;
+    }
+}
+@media screen and (max-width: 500px){
+    .logo5{
+        top: 160px !important;
+        right: 25px !important;
+    }
+    .logo5 h3{
+        font-size: 20px;
+    }
+    .logo5 .brand-logo{
+        font-size: 12px;
+    }
+    .logo5 h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 420px){
+    .logo5{
+        top: 100px !important;
         right: 5px !important;
+    }
+    .logo5 h3{
+        font-size: 20px;
+    }
+    .logo5 .brand-logo{
+        font-size: 10px;
+    }
+    .logo5 h2{
+        font-size: 28px;
     }
 }
