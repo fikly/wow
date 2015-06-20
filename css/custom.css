@@ -1,0 +1,135 @@
+@font-face{
+    font-family: dinPro;
+    src: url(../css/font/DINPro-Medium.ttf);
+}
+.txt-bottom-home{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 650px;
+    margin: auto;
+    min-width: 10%;
+    min-height: 10%;
+    z-index: 60;
+    width:420px;
+    display: none;
+}
+
+.gallery__item-about .content-over .photo-text-middle .we{
+    font-size: 130px;
+}
+
+.gallery__item-about .content-over .photo-text-middle .ser{
+    font-size:150px;
+    letter-spacing:-3px;
+}
+
+.gallery__item-about .content-over .photo-text-middle .image{
+    margin-left: 0px;
+}
+
+.gallery__item-about .content-over .header-box{
+    width: 100px;
+    height: 50px;
+    margin-top: 200px;
+    background-color: red;
+}
+
+@media(min-height:700px){
+    .txt-bottom-home{
+        display: block;
+    }
+}
+.logo5{
+    font-family:dinpro ;
+    text-transform: uppercase;
+}
+.logo5 h3{
+    font-size: 60px;
+    color: #26b571;
+    margin: 0px;
+}
+.logo5 h3 span{
+    color: #a9a8a8;
+}
+.logo5 .brand-logo{
+    margin: 0px;
+    padding: 5px 5px;
+    background-color: #26b571;
+    color: #e3e3e3;
+    font-size: 34px;
+}
+.logo5 h2{
+    margin: 0px;
+    font-size: 85px;
+    color: #a9a8a8;
+}
+@media screen and (max-width: 1024px){
+    .logo5 h3{
+        font-size: 60px;
+    }
+    .logo5 .brand-logo{
+        font-size: 34px;
+    }
+    .logo5 h2{
+        font-size: 85px;
+    }
+    .gallery__item-about .content-over .photo-text-middle {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:960px){
+    .gallery__item-about .content-over .photo-text-headline-box{
+        display: block;
+    }
+
+    .gallery__item-about .content-over .photo-text {
+        width: 160px;
+    }
+
+    .small{
+        display: none;
+    }
+
+    .gallery__item-about .content-over .photo-text-middle h1{
+        color: #26b571;
+        width: 300px;
+        font-size: 70px;
+    }
+
+
+    .gallery__item-about .content-over p {
+        color: #26b571;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 22px;
+        font-family: 'Helvetica Neue,Helvetica,Arial',sans-serif;
+        text-align: center;
+        max-width: 300px;
+        padding-top: 0;
+        padding-right: 20px;
+        margin-left: 50px;
+    }
+
+    .gallery__item-about .content-over .photo-text-middle .ser{
+        font-size:120px;
+        letter-spacing:-3px;
+    }
+
+    .gallery__item-about .content-over .photo-text-middle .image{
+        right: 10px;
+    }
+}
+
+@media screen and (max-width:786px){
+    .gallery__item-about .content-over .photo-text-headline-box{
+        display: block;
+    }
+
+    .gallery__item-about .content-over .photo-text-middle p{
+        display: none;
+    }
+
+}
