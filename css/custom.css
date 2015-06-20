@@ -25,12 +25,76 @@
     letter-spacing:-3px;
 }
 
+.gallery__item-about .content-over .photo-text-middle .vices{
+}
+
 .gallery__item-about .content-over .photo-text-middle .image{
     margin-left: 0px;
 }
 
 .gallery__item-about .content-over .photo-text-middle .image2{
     margin-left: 0px;
+}
+
+.gallery__item-about .content-over .photo-text-middle .caption1{
+    text-align:left; 
+    padding-left:70px;
+}
+
+.gallery__item-about .content-over .photo-text-middle .caption2{
+    color:white;
+    font-size:40px; 
+    letter-spacing:2px; 
+    padding-left:20px;
+}
+
+.gallery__item-about .content-over .photo-text-middle .caption2-plus{
+    color:gray;
+    font-size:40px;
+    padding-left:20px;
+}
+
+.gallery__item-about .content-over .photo-text-middle .caption3{
+    text-align:left; 
+    padding-left: 70px; 
+    color:white;
+    font-size:40px; 
+    letter-spacing:2px; 
+    line-height:5%;
+}
+
+.gallery__item-about .content-over .photo-text-middle .caption4{
+    color:white;
+    font-size:40px; 
+    letter-spacing:2px; 
+    padding-left:50px;
+}
+
+.gallery__item-about .content-over .photo-text-middle .caption5{
+    color:white;
+    font-size:25px; 
+    letter-spacing:0px; 
+    padding-left:40px; 
+    line-height:5%;
+}
+
+.gallery__item-about .content-over .photo-text-middle .caption5-dua{
+    color:gray;
+    font-size:40px; 
+    letter-spacing:2px; 
+    padding-left:40px; 
+    line-height:5%;
+}
+
+.gallery__item-about .content-over .photo-text-middle .caption5-tiga{
+    color:white;
+    font-size:60px; 
+    letter-spacing:2px; 
+    padding-left:40px; 
+    line-height:5%;
+}
+
+.gallery__item-about .content-over .photo-text-headline-box .title{
 }
 
 .gallery__item-about .content-over .header-box{
@@ -125,6 +189,23 @@
     .gallery__item-about .content-over .photo-text-middle .ser{
         font-size:120px;
         letter-spacing:-3px;
+        margin-left: 25px;
+        margin-top: -55px;
+    }
+    
+    .gallery__item-about .content-over .photo-text-middle .vices{
+        margin-left: 25px;
+    }
+    
+    
+    .gallery__item-about .content-over .photo-text-middle .title,.caption1,.caption2,.caption2-plus,.caption3,.caption4,.caption5,.caption5-dua,.caption5-tiga{
+        top: -50px;
+        position: relative;
+    }
+    
+    .gallery__item-about .content-over .photo-text-middle .caption1{
+        left: 30px;
+        position: relative;
     }
 
     /*

@@ -188,9 +188,9 @@
                                                     <div class="content-over">
                                                         <div class="photo-text-headline-box col-xs-4">
                                                             <div class="photo-text-middle">
-                                                                <h1>WHO</h1>
-                                                                <h1>WE</h1>
-                                                                <h1>ARE</h1>
+                                                                <h1 class="title">WHO</h1>
+                                                                <h1 class="title">WE</h1>
+                                                                <h1 class="title">ARE</h1>
                                                             </div>
                                                         </div>
                                                         <div class="photo-text col-xs-4">
@@ -200,7 +200,7 @@
                                                         </div>
                                                         <div class="photo-text-headline-box col-xs-4">
                                                             <div class="photo-text-middle">
-                                                                <p style="text-align:left; padding-left:70px;">Creative agency that builds brands by creating WOW-moments through campaign and experience</p>
+                                                                <p class="caption1">Creative agency that builds brands by creating WOW-moments through campaign and experience</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -210,7 +210,7 @@
                                                         <div class="photo-text-headline-box">
                                                             <div class="photo-text-middle">
                                                                 <h1 class="ser">SER</h1>
-                                                                <h1 >VICES</h1>
+                                                                <h1 class="vices">VICES</h1>
                                                             </div>
                                                         </div>
                                                         <div class="photo-text">
@@ -220,9 +220,9 @@
                                                         </div>
                                                         <div class="photo-text-headline-box">
                                                             <div class="photo-text-middle">
-                                                                <p style="color:white;font-size:40px; letter-spacing:2px; padding-left:20px;">Strategy</p>
-                                                                <p style="color:gray;font-size:40px;padding-left:20px;">+</p>
-                                                                <p style="color:white;font-size:40px; letter-spacing:2px;padding-left:20px;"> Planning</p>
+                                                                <p class="caption2">Strategy</p>
+                                                                <p class="caption2-plus">+</p>
+                                                                <p class="caption2"> Planning</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -232,7 +232,7 @@
                                                         <div class="photo-text-headline-box">
                                                             <div class="photo-text-middle">
                                                                 <h1 class="ser">SER</h1>
-                                                                <h1 >VICES</h1>
+                                                                <h1 class="vices">VICES</h1>
                                                             </div>
                                                         </div>
                                                         <div class="photo-text">
@@ -242,9 +242,9 @@
                                                         </div>
                                                         <div class="photo-text-headline-box">
                                                             <div class="photo-text-middle">
-                                                                <p style="text-align:left; padding-left: 70px; color:white;font-size:40px; letter-spacing:2px; line-height:5%;">Content</p>
+                                                                <p class="caption3">Content</p>
                                                                 <br/>
-                                                                <p style="text-align:left; padding-left: 70px; color:white;font-size:40px; letter-spacing:2px; line-height:5%;">Production</p>
+                                                                <p class="caption3">Production</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -254,7 +254,7 @@
                                                         <div class="photo-text-headline-box">
                                                             <div class="photo-text-middle">
                                                                 <h1 class="ser">SER</h1>
-                                                                <h1 >VICES</h1>
+                                                                <h1 class="vices">VICES</h1>
                                                             </div>
                                                         </div>
                                                         <div class="photo-text">
@@ -264,10 +264,10 @@
                                                         </div>
                                                         <div class="photo-text-headline-box">
                                                             <div class="photo-text-middle">
-                                                                <p style="color:white;font-size:40px; letter-spacing:2px; padding-left:50px;">Brand</p>
-                                                                <p style="color:white;font-size:40px; letter-spacing:2px; padding-left:50px;">Experience</p>
-                                                                <p style="color:white;font-size:40px; letter-spacing:2px; padding-left:50px;"> & </p>
-                                                                <p style="color:white;font-size:40px; letter-spacing:2px; padding-left:50px;">Activation</p>
+                                                                <p class="caption4">Brand</p>
+                                                                <p class="caption4">Experience</p>
+                                                                <p class="caption4"> & </p>
+                                                                <p class="caption4">Activation</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -277,7 +277,7 @@
                                                         <div class="photo-text-headline-box">
                                                             <div class="photo-text-middle">
                                                                 <h1 class="ser">SER</h1>
-                                                                <h1 >VICES</h1>
+                                                                <h1 class="vices">VICES</h1>
                                                             </div>
                                                         </div>
                                                         <div class="photo-text">
@@ -287,11 +287,11 @@
                                                         </div>
                                                         <div class="photo-text-headline-box">
                                                             <div class="photo-text-middle">
-                                                                <p style="color:white;font-size:25px; letter-spacing:0px; padding-left:40px; line-height:5%;">Media Planning</p>
+                                                                <p class="caption5">Media Planning</p>
                                                                 <br/>
-                                                                <p style="color:gray;font-size:40px; letter-spacing:2px; padding-left:40px; line-height:5%;"> + </p>
+                                                                <p class="caption5-dua"> + </p>
                                                                 <br/>
-                                                                <p style="color:white;font-size:60px; letter-spacing:2px; padding-left:40px; line-height:5%;">Buying</p>
+                                                                <p class="caption5-tiga">Buying</p>
                                                             </div>
                                                         </div>
                                                     </div>
