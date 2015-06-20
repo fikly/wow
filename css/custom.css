@@ -15,7 +15,56 @@
     width:420px;
     display: none;
 }
-
+.slides-container a{
+    cursor: pointer;
+}
+.ovelay-client{
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: none;
+    margin-top: 35px;
+    text-align: left;
+    color: #ffffff;
+    padding: 20px;
+}
+.close-ovelay{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.close-ovelay i{
+    font-size: 18px;
+}
+.close-ovelay i:hover{
+    cursor: pointer;
+    color: #aaaaaa;
+}
+.content-ovelay{
+    margin: 0px 10%;
+    height: 87%;
+    width: 80%;
+    background-color: #ffffff;
+}
+.content-top{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+.content-ovelay iframe{
+    width: 100% !important;
+    height: 100% !important;
+}
+.content-ovelay img{
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    left: 0px !important;
+    top: 0px !important;
+    z-index: 1 !important;
+}
 .gallery__item-about .content-over .photo-text-middle .we{
     font-size: 130px;
 }
@@ -37,14 +86,14 @@
 }
 
 .gallery__item-about .content-over .photo-text-middle .caption1{
-    text-align:left; 
+    text-align:left;
     padding-left:70px;
 }
 
 .gallery__item-about .content-over .photo-text-middle .caption2{
     color:white;
-    font-size:40px; 
-    letter-spacing:2px; 
+    font-size:40px;
+    letter-spacing:2px;
     padding-left:20px;
 }
 
@@ -55,42 +104,42 @@
 }
 
 .gallery__item-about .content-over .photo-text-middle .caption3{
-    text-align:left; 
-    padding-left: 70px; 
+    text-align:left;
+    padding-left: 70px;
     color:white;
-    font-size:40px; 
-    letter-spacing:2px; 
+    font-size:40px;
+    letter-spacing:2px;
     line-height:5%;
 }
 
 .gallery__item-about .content-over .photo-text-middle .caption4{
     color:white;
-    font-size:40px; 
-    letter-spacing:2px; 
+    font-size:40px;
+    letter-spacing:2px;
     padding-left:50px;
 }
 
 .gallery__item-about .content-over .photo-text-middle .caption5{
     color:white;
-    font-size:25px; 
-    letter-spacing:0px; 
-    padding-left:40px; 
+    font-size:25px;
+    letter-spacing:0px;
+    padding-left:40px;
     line-height:5%;
 }
 
 .gallery__item-about .content-over .photo-text-middle .caption5-dua{
     color:gray;
-    font-size:40px; 
-    letter-spacing:2px; 
-    padding-left:40px; 
+    font-size:40px;
+    letter-spacing:2px;
+    padding-left:40px;
     line-height:5%;
 }
 
 .gallery__item-about .content-over .photo-text-middle .caption5-tiga{
     color:white;
-    font-size:60px; 
-    letter-spacing:2px; 
-    padding-left:40px; 
+    font-size:60px;
+    letter-spacing:2px;
+    padding-left:40px;
     line-height:5%;
 }
 
@@ -149,7 +198,7 @@
 }
 @media screen and (max-width: 1024px){
     .gallery__item-about .content-over .photo-text-middle {
-        width: 355px; 
+        width: 355px;
     }
 }
 
@@ -192,17 +241,17 @@
         margin-left: 25px;
         margin-top: -55px;
     }
-    
+
     .gallery__item-about .content-over .photo-text-middle .vices{
         margin-left: 25px;
     }
-    
-    
+
+
     .gallery__item-about .content-over .photo-text-middle .title,.caption1,.caption2,.caption2-plus,.caption3,.caption4,.caption5,.caption5-dua,.caption5-tiga{
         top: -50px;
         position: relative;
     }
-    
+
     .gallery__item-about .content-over .photo-text-middle .caption1{
         left: 30px;
         position: relative;

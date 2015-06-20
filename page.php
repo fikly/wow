@@ -27,6 +27,7 @@
         <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
         <link href='css/base.css' rel='stylesheet' type='text/css'>
         <link href='css/styles.css' rel='stylesheet' type='text/css'>
+        <link href='css/font-awesome/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="javascripts/dist/stylesheets/superslides.css">
 
         <!-- favicon -->
@@ -333,23 +334,42 @@
                                     <img src="images/client/cassablanca-bg.jpg" alt="">
                                     <div class="container" style="left:30%">
                                         <h1>
-                                            <a href="images/client/cassablanca.jpg" style="background: url(images/client/cassablanca.png)  no-repeat;
+                                            <a style="background: url(images/client/cassablanca.png)  no-repeat;
                                                width: 200px;
                                                height: 200px;
-                                               display: inline-block;"></a>
+                                               display: inline-block;" onclick="openOvelay('#ovelay1')"></a>
                                         </h1>
                                     </div>
-                                    <div class="ovelay-client"></div>
+                                    <div class="ovelay-client" id="ovelay1">
+                                        <div class="close-ovelay">
+                                            <i class="fa fa-close" onclick="closeOvelay('#ovelay1', '#frame1')"></i>
+                                        </div>
+                                        <div class="content-ovelay">
+                                            <div class="content-top">
+                                                <iframe id="frame1" src="https://www.youtube.com/embed/IlEodG1ohEE" frameborder="0" ></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
                                 <li>
                                     <img src="images/client/bca.jpg" alt="">
                                     <div class="container"style="left:30%">
                                         <h1>
-                                            <a href="images/client/bca.jpg" data-fancybox-group="gallery" style="background: url(images/client/bca.png)  no-repeat;
+                                            <a style="background: url(images/client/bca.png)  no-repeat;
                                                width: 200px;
                                                height: 200px;
-                                               display: inline-block;"></a>
+                                               display: inline-block;" onclick="openOvelay('#ovelay2')"></a>
                                         </h1>
+                                    </div>
+                                    <div class="ovelay-client" id="ovelay2">
+                                        <div class="close-ovelay">
+                                            <i class="fa fa-close" onclick="closeOvelay('#ovelay2')"></i>
+                                        </div>
+                                        <div class="content-ovelay">
+                                            <div class="content-top">
+                                                <img src="images/client/bca.jpg"/>
+                                            </div>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
@@ -917,12 +937,12 @@
         <script src="javascripts/jquery.animate-enhanced.min.js-"></script>
         <script src="javascripts/dist/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
         <script>
-            $(function () {
-                $('#slides').superslides({
-                    hashchange: false,
-                    pagination: false,
-                });
-            });
+                                                $(function () {
+                                                    $('#slides').superslides({
+                                                        hashchange: false,
+                                                        pagination: false,
+                                                    });
+                                                });
         </script>
 
 
@@ -930,10 +950,6 @@
         <script type="text/javascript">
             $(document).ready(function () {
                 $('.fancybox').fancybox();
-                $('.fancybox-2').fancybox();
-                $('.fancybox-3').fancybox();
-                $('.fancybox-4').fancybox();
-                $("a#single_image").fancybox();
                 $("span.menu-name-1").html("Home");
                 $("span.menu-name-2").html("About");
                 $("span.menu-name-3").html("Client");

@@ -440,3 +440,15 @@ $(window).load(function () {
 });
 
 
+function openOvelay(id) {
+    $(id).fadeIn();
+}
+function closeOvelay(id, frame) {
+    $(id).fadeOut();
+    var url = $(frame).attr('src');
+
+    $(frame).attr('src', '');
+    $(frame).attr('src', url);
+}
+
+
