@@ -333,24 +333,22 @@
                                     <img src="images/client/cassablanca-bg.jpg" alt="">
                                     <div class="container" style="left:30%">
                                         <h1>
-                                            <a id="single_image" href="images/client/cassablanca.jpg" style="background: url(images/client/cassablanca.png)  no-repeat;
+                                            <a href="images/client/cassablanca.jpg" style="background: url(images/client/cassablanca.png)  no-repeat;
                                                width: 200px;
                                                height: 200px;
                                                display: inline-block;"></a>
                                         </h1>
                                     </div>
+                                    <div class="ovelay-client"></div>
                                 </li>
                                 <li>
                                     <img src="images/client/bca.jpg" alt="">
                                     <div class="container"style="left:30%">
                                         <h1>
-                                            <a class="fancybox" href="images/client/bca.jpg" data-fancybox-group="gallery" style="background: url(images/client/bca.png)  no-repeat;
+                                            <a href="images/client/bca.jpg" data-fancybox-group="gallery" style="background: url(images/client/bca.png)  no-repeat;
                                                width: 200px;
                                                height: 200px;
                                                display: inline-block;"></a>
-                                            <a class="fancybox" href="images/client/bca-full-1.jpg" data-fancybox-group="gallery"></a>
-                                            <a class="fancybox" href="images/client/bca-full-2.jpg" data-fancybox-group="gallery"></a>
-                                            <a class="fancybox" href="images/client/bca-full-3.jpg" data-fancybox-group="gallery"></a>
                                         </h1>
                                     </div>
                                 </li>
@@ -358,7 +356,7 @@
                                     <img src="images/client/bellagio.jpg" alt="">
                                     <div class="container" style="left:30%">
                                         <h1>
-                                            <a id="single_image" href="images/client/bellagio-full.jpg" style="background: url(images/client/bellagio.png)no-repeat;
+                                            <a href="images/client/bellagio-full.jpg" style="background: url(images/client/bellagio.png)no-repeat;
                                                width: 200px;
                                                height: 200px;
                                                display: inline-block;"></a>
@@ -369,7 +367,7 @@
                                     <img src="images/client/golkar.jpg" alt="">
                                     <div class="container" style="top:40%;left:31%">
                                         <h1>
-                                            <a id="single_image" href="images/client/golkar.jpg" style="background: url(images/client/golkar.png)no-repeat;
+                                            <a href="images/client/golkar.jpg" style="background: url(images/client/golkar.png)no-repeat;
                                                width: 200px;
                                                height: 200px;
                                                display: inline-block;"></a>
@@ -381,7 +379,7 @@
                                     <img src="images/client/regazza.jpg" alt="">
                                     <div class="container" style="left:30%">
                                         <h1>
-                                            <a id="single_image" href="images/client/regazza-full.jpg" style="background: url(images/client/regezza.png)no-repeat;
+                                            <a href="images/client/regazza-full.jpg" style="background: url(images/client/regezza.png)no-repeat;
                                                width: 200px;
                                                height: 200px;
                                                display: inline-block;"></a>
@@ -393,13 +391,10 @@
                                     <img src="images/client/pluit-city.jpg" alt="">
                                     <div class="container" style="top:40%;left:30%">
                                         <h1>
-                                            <a class="fancybox-3" href="images/client/pluit-city.jpg" data-fancybox-group="gallery" style="background: url(images/client/pluit-city.png)no-repeat;
+                                            <a href="images/client/pluit-city.jpg" data-fancybox-group="gallery" style="background: url(images/client/pluit-city.png)no-repeat;
                                                width: 200px;
                                                height: 200px;
                                                display: inline-block;"></a>
-                                            <a class="fancybox-3" href="images/client/pluit-city-1.jpg" data-fancybox-group="gallery"></a>
-                                            <a class="fancybox-3" href="images/client/pluit-city-2.jpg" data-fancybox-group="gallery"></a>
-                                            <a class="fancybox-3" href="images/client/pluit-city-3.jpg" data-fancybox-group="gallery"></a>
                                         </h1>
                                     </div>
                                 </li>
@@ -408,14 +403,10 @@
                                     <img src="images/client/bca-award.jpg" alt="">
                                     <div class="container" style="top:40%;left:31%">
                                         <h1>
-                                            <a class="fancybox-4" href="images/client/bca-award.jpg" data-fancybox-group="gallery" style="background: url(images/client/bca-award.png)no-repeat;
+                                            <a href="images/client/bca-award.jpg" data-fancybox-group="gallery" style="background: url(images/client/bca-award.png)no-repeat;
                                                width: 200px;
                                                height: 200px;
                                                display: inline-block;"></a>
-                                            <a class="fancybox-4" href="images/client/bca-awards-1.jpg" data-fancybox-group="gallery"></a>
-                                            <a class="fancybox-4" href="images/client/bca-awards-2.jpg" data-fancybox-group="gallery"></a>
-                                            <a class="fancybox-4" href="images/client/bca-awards-3.jpg" data-fancybox-group="gallery"></a>
-
                                         </h1>
                                     </div>
                                 </li>
@@ -426,41 +417,31 @@
                                     <img src="images/client/citibank-bg.png" alt="">
                                     <div class="container" style="top:43%;left:30%">
                                         <h1>
-                                            <a id="single_image" href="images/client/citibank.jpg" style="background: url(images/client/citibank-logo.png)no-repeat;
+                                            <a href="images/client/citibank.jpg" style="background: url(images/client/citibank-logo.png)no-repeat;
                                                width: 200px;
                                                height: 200px;
                                                display: inline-block;"></a>
                                         </h1>
                                     </div>
                                 </li>
-
-
-
-
 
                                 <li>
                                     <img src="images/client/indocafe-black.jpg" alt="">
                                     <div class="container" style="top:40%;left:31%">
                                         <h1>
-                                            <a class="fancybox-2" href="images/client/indocafe-black-full.jpg" data-fancybox-group="gallery" style="background: url(images/client/indocafe-logo.png)no-repeat;
+                                            <a href="images/client/indocafe-black-full.jpg" data-fancybox-group="gallery" style="background: url(images/client/indocafe-logo.png)no-repeat;
                                                width: 200px;
                                                height: 200px;
                                                display: inline-block;"></a>
-                                            <a class="fancybox-2" href="images/client/indocafe-red-full.jpg" data-fancybox-group="gallery" ></a>
-                                            <a class="fancybox-2" href="images/client/indocafe-rodolfo-full.jpg" data-fancybox-group="gallery" ></a>
-                                            <a class="fancybox-2" href="images/client/indocafe-bike-full.jpg" data-fancybox-group="gallery" ></a>
                                         </h1>
                                     </div>
                                 </li>
-
-
-
 
                                 <li>
                                     <img src="images/client/Packaging.jpg" alt="">
                                     <div class="container">
                                         <h1>
-                                            <a id="single_image" href="images/client/Packaging.jpg"></a>
+                                            <a href="images/client/Packaging.jpg"></a>
                                         </h1>
                                     </div>
                                 </li>
@@ -469,7 +450,7 @@
                                     <img src="images/client/otherclient.png" alt="">
                                     <div class="container" style="top:40%;left:31%">
                                         <h1>
-                                            <a id="single_image" href="images/client/otherclient.png"></a>
+                                            <a href="images/client/otherclient.png"></a>
                                         </h1>
                                     </div>
                                 </li>
@@ -942,7 +923,7 @@
                     pagination: false,
                 });
             });
- </script>
+        </script>
 
 
 
@@ -960,7 +941,7 @@
                 $("span.menu-name-5").html("Contact");
 
             });
- </script>
+        </script>
 
     </body>
 </html>
