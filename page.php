@@ -195,7 +195,7 @@
                                                         </div>
                                                         <div class="photo-text col-xs-4">
                                                             <div class="photo-text-middle">
-                                                                <img src="images/about/1.png">
+                                                                <img src="images/about/1.png" class="image">
                                                             </div>
                                                         </div>
                                                         <div class="photo-text-headline-box col-xs-4">
@@ -214,8 +214,8 @@
                                                             </div>
                                                         </div>
                                                         <div class="photo-text">
-                                                            <div class="photo-text-middle" class="image">
-                                                                <img src="images/about/2.png">
+                                                            <div class="photo-text-middle">
+                                                                <img src="images/about/2.png" class="image2">
                                                             </div>
                                                         </div>
                                                         <div class="photo-text-headline-box">
@@ -237,7 +237,7 @@
                                                         </div>
                                                         <div class="photo-text">
                                                             <div class="photo-text-middle">
-                                                                <img src="images/about/3.png">
+                                                                <img src="images/about/3.png" class="image2">
                                                             </div>
                                                         </div>
                                                         <div class="photo-text-headline-box">
@@ -259,7 +259,7 @@
                                                         </div>
                                                         <div class="photo-text">
                                                             <div class="photo-text-middle">
-                                                                <img src="images/about/4.png">
+                                                                <img src="images/about/4.png" class="image2">
                                                             </div>
                                                         </div>
                                                         <div class="photo-text-headline-box">
@@ -282,7 +282,7 @@
                                                         </div>
                                                         <div class="photo-text">
                                                             <div class="photo-text-middle">
-                                                                <img src="images/about/5.png">
+                                                                <img src="images/about/5.png" class="image2">
                                                             </div>
                                                         </div>
                                                         <div class="photo-text-headline-box">
