@@ -942,7 +942,7 @@
                     pagination: false,
                 });
             });
-        </script>
+ </script>
 
 
 
@@ -960,7 +960,7 @@
                 $("span.menu-name-5").html("Contact");
 
             });
-        </script>
+ </script>
 
     </body>
 </html>

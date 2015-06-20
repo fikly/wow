@@ -65,16 +65,21 @@
     font-size: 85px;
     color: #a9a8a8;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1060px){
+    .logo5{
+        right: 40px !important;
+    }
     .logo5 h3{
-        font-size: 60px;
+        font-size: 50px;
     }
     .logo5 .brand-logo{
-        font-size: 34px;
+        font-size: 27px;
     }
     .logo5 h2{
-        font-size: 85px;
+        font-size: 75px;
     }
+}
+@media screen and (max-width: 1024px){
     .gallery__item-about .content-over .photo-text-middle {
         width: 250px;
     }
@@ -122,8 +127,24 @@
         right: 10px;
     }
 }
-
+@media screen and (max-width: 900px){
+    .logo5{
+        right: 25px !important;
+    }
+    .logo5 h3{
+        font-size: 45px;
+    }
+    .logo5 .brand-logo{
+        font-size: 25px;
+    }
+    .logo5 h2{
+        font-size: 65px;
+    }
+}
 @media screen and (max-width:786px){
+    .logo5{
+        top: 230px !important;
+    }
     .gallery__item-about .content-over .photo-text-headline-box{
         display: block;
     }
@@ -132,4 +153,30 @@
         display: none;
     }
 
+}
+@media screen and (max-width: 750px){
+    .logo5{
+        right: 30px !important;
+    }
+    .logo5 h3{
+        font-size: 35px;
+    }
+    .logo5 .brand-logo{
+        font-size: 20px;
+    }
+    .logo5 h2{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 600px){
+    .logo5{
+        top: 200px !important;
+        right: 10px !important;
+    }
+}
+@media screen and (max-width: 600px){
+    .logo5{
+        top: 150px !important;
+        right: 5px !important;
+    }
 }
